@@ -1,0 +1,38 @@
+{
+  "name": "WhiteBoard",
+  "version": "1.0.0",
+  "description": "",
+  "keywords": [],
+  "entry": "src/App.js",
+  "main": "src/index.js",
+  "dependencies": {
+    "@uidotdev/usehooks": "2.4.1",
+    "react": "18.3.1",
+    "react-dom": "18.3.1",
+    "react-scripts": "5.0.1"
+  },
+  "devDependencies": {
+    "ajv": "^8.16.0",
+    "typescript": "5.5.2"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ],
+  "previewConfig": {
+    "visibleFiles": [
+      "/src/useLocalStorage.js",
+      "/src/App.js",
+      "/src/styles.css"
+    ],
+    "activeFile": "/src/useLocalStorage.js"
+  }
+}
